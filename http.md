@@ -17,3 +17,38 @@ URL: protocol+hostname+filepath+ extra arguments
 HTTP is categorized in to request-response protocol
 
 HTTP is a stateless protocol: server don’t store any information of the client
+
+# HTTP headers
+
+⇒ Any HTTP message are plain ASCII text
+
+1. host
+2. method
+3. status code
+4. Referrer policy
+
+⇒ There are multiple http methods
+
+1. GET: Request some data
+2. POST: Put Some data on the server
+3. PUT: Update data on the server
+4. PATCH: Update data on the server
+5. DELETE: Delete data on the server
+
+⇒ User-agent: It specifies the client, useful when server has different web pages for different devices
+
+⇒ Accept-language: Specifies the preferred language.
+
+⇒ Connection : close / open for non socket and socket connection.
+
+⇒ HTTP Status code
+
+100: Informational responses
+
+200: Success responses
+
+300: Redirection responses
+
+400: Client error responses
+
+500: Server Error responses
